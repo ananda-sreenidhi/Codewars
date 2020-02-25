@@ -1,5 +1,5 @@
 """
-Is a number prime
+Is a number Prime?
 https://www.codewars.com/kata/5262119038c0985a5b00029f
 """
 
