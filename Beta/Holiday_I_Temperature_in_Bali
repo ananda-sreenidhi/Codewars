@@ -1,0 +1,9 @@
+"""
+Holiday I - Temperature in Bali
+https://www.codewars.com/kata/57e8e9df2aee49c0280009ab
+"""
+
+def bareable(heat, humidity):
+    if humidity > 0.5 or heat > 35: return False
+    elif heat in range(25, 36) and humidity > 0.4: return False
+    else: return True
